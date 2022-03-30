@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.backgroundindex{
+    background: url(branco.jpg) center / 50.41% 100% no-repeat,
+                url(backgroundnebula.jpg) top right / 100% 100%;
+}
+
+p {
+    margin-top: 25%;
+    color: azure;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+a:hover {
+    text-decoration: underline;  
+}
+.cabecalho{
+    max-height: 100px;
+    height: 30px;
+    width: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+.imgcabecalho{
+    width: 30px;
+    height: 30px;
+    margin-left: 24.8%;
+    display: block;
+}
+.txtcabecalho{
+    font-size:  large;
+    color: white;
+    margin-top: -25px;
+    text-align: center;
+ 
+}
+.divgeral{
+    background-image: url(branco.jpg);
+    width: 50%;
+}
+.sectionrust {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.sectionrust img {
+    width: 100%;
+    height: 100%;
+    padding-bottom: -5px;
+}
+
+.rustlink{ /* PARTE ESCURA SOBRE A IMAGEM*/
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.sectioncsgo {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    border: 3px solid black;
+    border-bottom: -50px;
+    margin-top: 10px;
+}
+
+.sectioncsgo img {
+    width: 100%;
+    height: 100%;
+}
+
+.csgolink{
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.7);
+    margin-bottom: 20px;
+
+}
+
+.sectionreddead {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
+.sectionreddead img {
+    width: 100%;
+    height: 100%;
+}
+
+.reddeadlink{
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.7);
+    margin-bottom: 20px;
+
+}
+
+
+
+/*PAGINA RUST HTML */
+.backgroundrust {
+    background: url(backgroundrust.png) no-repeat;
+
+
+}
+.titulorust {
+    text-align: center;
+    margin-top: -1.5%;
+    color: azure;
+    font-size: x-large;
+}
+
+.divrust {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-top: -12%;
+    background-color: rgba(0,0,0,0.7);
+    width: 52%;
+    height: 100%;
+    padding: 2% 3% 5% 3% ; 
+}
+
+.videorust{
+    margin-top: 5%;
+}
+
+.escritorust{
+    color: white;
+}
+.iconepgrust{
+    width:25px ;
+    height:25px ;
+    display: block;
+    margin: 0px auto;
+    margin-top: -1.5%;
+    margin-left: 74%;
+}
+
+/*PAGINA RED DEAD HTML */
+
+.backgroundreddead{
+    background: url(backgroundreddead.png) no-repeat;
+}
+
+.tituloreddead{
+    text-align: center;
+    margin-top:-1.3%;
+    font-size: large;
+    color:azure;
+}
+
+.divreddead {
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-top: -12%;
+    background-color: rgba(0,0,0,0.7);
+    width: 52%;
+    height: 100%;
+    padding: 2% 3% 5% 3% ; 
+}
+.videoreddead {
+    margin-top: 5%;
+}
+.iconepgred{
+    width:25px ;
+    height:25px ;
+    display: block;
+    margin: 0px auto;
+    margin-top: -1.5%;
+    margin-left: 74%;
+}
+
+/*PAGINA CSGO HTML https://blog.counter-strike.net/?msclkid=7a8e284db05e11ec8910466216ff53f2*/
+
+
+.backgroundcsgo {
+    background: url(backgroundcs.jpg);
+}
+
+.titulocs{
+    text-align: center;
+    font-size: large;
+    color: azure;
+    margin-top: -1.3%;
+}
+
+.divcsgo{
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+    margin-top: -10%;
+    background-color: rgba(0,0,0,0.7);
+    width: 52%;
+    height: 100%;
+    padding: 2% 3% 10% 3% ; 
+}
+.videocsgo{
+    margin-top: 5%;
+    margin: 0px auto;
+    display: block;
+}
+
+.iconepgcs{
+    width:25px ;
+    height:25px ;
+    display: block;
+    margin: 0px auto;
+    margin-top: -1.5%;
+    margin-left: 74%;
+}
